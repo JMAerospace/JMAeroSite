@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> JM Aerospace </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="StyleSheet.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;} h1, h2, h3, h4, h5, h6 { font-family: "Playfair Display"; letter-spacing: 5px; }
+.container{
+  display: grid;
+  grid-gap: 10px;
+ 
+}
+
+#upperpad{
+   background-color:  rgb(224, 224, 224);
+    grid-column: 1/7;
+
+}
+
+#rphoto{
+grid-column: 1/2;
+}
+#main{
+grid-column: 2/7;
+}
+
+#lcol{
+background-color: rgb(224, 224, 224);
+grid-column: 1/3;
+}
+#ccol{
+background-color:  rgb(224, 224, 224);
+grid-column: 3/5;
+}
+
+#contact{
+background-color:  rgb(224, 224, 224);
+grid-column: 5/7;
+}
+
+.container > div{
+  padding: 2%;
+}
+</style>
+</head>
+
+
+<body> <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue-grey w3-padding w3-card" style="letter-spacing:2px;">
+    <a href="index.html" class="w3-bar-item w3-button"> JM Aerospace </a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+	  <!-- <a href="PhotoGallery.html" class="w3-bar-item w3-button">Photo Gallery</a> -->
+      <a href="TypeList.html" class="w3-bar-item w3-button">Type List</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header Image -->
+<header class="w3-display-container w3-content" style="max-width:2000px;min-width:500px" id="home">
+  <img class="w3-image" src="cozy.jpg" alt="656TE at Mansfield" width="3000" style="height: 400px; object-fit: cover; object-position: 0% 90%;">
+  <div class="w3-display-bottomright w3-padding-large w3-opacity">
+    <!-- <h1 class="w3-xxlarge w3-text-orange">[Tag in pic]</h1> -->
+  </div>
+</header>
+
+<!-- Container -->
+<div class="container">
+
+<!-- Page content configuration -->
+<!-- <div class="w3-content" style="max-width:1400px"> -->
+
+    <div class="w3-row w3-padding-small w3-round-large" id="upperpad">
+    </div>
+  
+    <div class="w3-padding-8" id="rphoto">
+    <img src="Caravan2.jpg" class="w3-image w3-round-large w3-hover-shadow max-height">
+    
+     
+    </div>
+
+    <div class="w33-row w-padding 8 w3-round-large" id="main">
+    <!-- <div class="w3-col m6 w3-padding-small"> -->
+      <h1 class="w3-center">Tailored Solutions</h1>
+      <br>
+      <h3 class="w3-center">Maximizing your aviation experience as a pilot, instructor, broker, and consultant</h3>
+      <br>
+      <h4 class="w3-center w3-large" style="letter-spacing:2px;"> Deep technical knowledge and attention to detail are core tenants of aviation safety and are the founding principles of the business. 
+        Whether you are purchasing your first aircraft, upgrading to one which is larger, faster, more complex, or looking to broaden your base of experience as a pilot, we are your go to source for a complete solution. 
+        With more than 1,700 hours of flight time in more than 30 types of airplanes and helicopters you can be confident in a successful outcome for whatever your mission entails.
+      </div>
+
+    <!-- Left Column -->
+    <div class="w3-row w3-padding 8 w3-round-large w3-hover-shadow" id="lcol">
+	  <!-- <span class="w3-tag w3-light-grey">TYPE LIST</span> -->
+	    <h1 class="w3-center">Airplanes </h1>
+        <b><p class="w3-center w3-large"> Contract Pilot Services </p></b>
+        <p class="w3-center"> Embraer Phenom 300, Pilatus PC-12 and Cessna 208 Amphibian
+        <b><p class="w3-center w3-large"> Instrument Training</p></b> 
+        <p class="w3-center"> Initial instrument training, proficiency checks, and transition training in a new type
+        <b><p class="w3-center w3-large"> Tailwheel Training </b>
+        <p class="w3-center"> Initial tailwheel training or checkout in a new type
+        <b><p class="w3-center w3-large"> Seaplane Training</b> 
+        <p class="w3-center"> Initial seaplane training or checkout in a new type
+        <b><p class="w3-center w3-large"> Aircraft Ferrying</b> 
+        <p class="w3-center"> Anywhere in North America
+        <b><p class="w3-center w3-large"> Extensive experience in more than 25 types of airplanes </b>
+    </div>
+
+    <!-- Center Column -->
+     <!-- clean up helicopter services, detail specialized services -->
+	  <div class="w3-row w3-padding 8 w3-round-large w3-hover-shadow" id="ccol">
+        <h1 class="w3-center">Helicopters </h1>
+        <b><p class="w3-center w3-large"> Contract Pilot Services </p></b>
+        <p class="w3-center"> Eurocopter AS-350, Guimbal Cabri G-2, Enstrom 280 Series
+        <b><p class="w3-center w3-large"> Instrument Training</p></b> 
+        <p class="w3-center"> Initial instrument training, proficiency checks, and transition training in a new type
+        <b><p class="w3-center w3-large"> Night Vision Goggle Training </b>
+        <p class="w3-center"> Initial NVG PIC endorsement & recurrent proficiency checks
+        <b><p class="w3-center w3-large"> Aircraft Ferrying</b> 
+        <p class="w3-center"> Anywhere in North America
+        <!-- <b><p class="w3-center w3-large"> Experience in Eurocopter, Guimbal, and Enstrom Helicopters </b> -->
+
+        <h2 class="w3-center">Other Specialized Services</h2>
+        <b><p class="w3-center w3-large"> Airworthiness records review & AD research</p>
+        <p class="w3-center w3-large"> Mission & operational optimization </p>
+        <p class="w3-center w3-large"> Airplane & engine brokerage </p> </b>
+      </div>
+
+ 
+  <!-- Contact Section -->
+   <!-- remove date bar, adjust line spacing, make message box larger, clean up note-->
+  <div class="w3-row w3-padding 8 w3-round-large w3-hover-shadow" id="contact">
+    <h1 class="w3-center">Contact</h1><br>
+    <p class="w3-center">  Reach out with a brief summary of your needs and we will guarantee a response within 24 hours. Your interest is greatly appreciated!</p>
+
+    <!-- <p>You can contact us by email at <a href="beechaviationllc@gmail.com" title="Request a Quote" target="_blank" class="w3-hover-text-green">beechaviationllc@gmail.com</a>, or can send us a message:</p> -->
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+      <!-- Replace with your Access Key -->
+      <input type="hidden" name="access_key" value="9accc353-a49d-4389-80d8-e8d88c89c056">
+  
+      <!-- Form Inputs. Each input must have a name="" attribute -->
+      <!-- <input type="text" name="name" required> -->
+      <p><input class="w3-input w3-padding-16" type="text" name="name" placeholder="Name" required ></p>
+      <!-- <input type="email" name="email" required> -->
+      <p><input class="w3-input w3-padding-16" type="email" name="email" placeholder="Email" required ></p>
+      <p><input class="w3-input w3-padding-16" type="text" name="subject" placeholder="Subject" required></p>
+      <textarea class="w3-input w3-padding-16" name="message" rows="3" placeholder="Message" required></textarea>
+  
+      <!-- Honeypot Spam Protection -->
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+  
+      <!-- Custom Confirmation / Success Page -->
+      <!-- <input type="hidden" name="redirect" value="https://google.com"> make this a "Thank You" page -->
+  
+      <!-- <button type="submit">Submit Form</button> -->
+      <p><button class="w3-button w3-light-grey w3-section" type="submit"> Send Message </button></p>
+  
+  </form>
+
+  </div>
+
+  
+</div> <!-- END OF CONTAINER -->
+
+<!-- End page content -->
+
+<!-- Footer & Host Info -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+	<p>Powered by <a href="https://www.google.com" title="HOST" target="_blank" class="w3-hover-text-green">www.GitHub.com</a></p>
+</footer>
+</div>
+</body>
+</html>
